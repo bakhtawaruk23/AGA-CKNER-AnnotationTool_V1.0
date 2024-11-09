@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    direction: rtl; /* Right-to-left text direction */
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#fileInput {
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+#annotationForm {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.text-box {
+    width: 60%; /* Increased to match the 60% width in the original style */
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dropdown {
+    width: 35%; /* Adjusted to be 35% */
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#pageInfo {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+#totalCount {
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.row-counter {
+    text-align: center;
+    font-size: 16px;
+    color: #261111;
+}

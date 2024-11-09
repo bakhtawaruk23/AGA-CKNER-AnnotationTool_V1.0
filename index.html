@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGA NER Annotation Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>AGA NER Annotation Tool</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" id="fileInput" name="file" accept=".txt">
+    </form>
+    <div id="annotationForm"></div>
+    <div id="pagination">
+        <span id="pageInfo" style="margin: 40px;"></span>
+        <button id="prevPageBtn" style="margin: 40px;">Previous</button>
+        <button id="nextPageBtn" style="margin: 40px;">Next</button>
+        <button id="saveButton" class="pagination-btn" onclick="saveAnnotations()">Save</button>
+    </div>
+    <div id="totalCount"></div>
+    <script src="script.js"></script>
+</body>
+</html>
